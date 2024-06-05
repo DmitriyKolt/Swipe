@@ -109,8 +109,9 @@ h3 {
 .sponsor {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 73px 0;
+    justify-content: space-between;
+    width: 1320px;
+    margin: 73px auto;
 }
 
 .stat h2 {
@@ -189,6 +190,7 @@ h3 {
     font-size: 35px;
     line-height: 38.5px;
     color: #1A1930;
+    margin: 0;
 }
 
 .pos-explanation {
@@ -214,6 +216,8 @@ h3 {
     width: 1300px;
     justify-content: space-between;
     margin: 0 auto;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 50px;
 }
 
 .possibilities h2 {
@@ -226,5 +230,18 @@ h3 {
 
 .possibilities-caption {
     display: flex;
-    justify-content: space-around;
+    width: 1320px;
+    justify-content: space-between;
+    margin: 0 auto 150px;
+}
+
+.possibilities {
+    position: relative;
+    width: 1340px;
+    margin: 0 auto;
+}
+
+.pos-back {
+    position: absolute;
+    z-index: -1;
 }
